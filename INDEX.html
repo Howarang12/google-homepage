@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
-<style>
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li{
-    float: left;
-}
-</style>
-
 
 <head>
     <meta charset = "UTF-8">
     <title>Google</title> 
-    <ul>
-        <li>About</li>
-        <li>Store</li>
-        <li>Gmail</li>
-        <li>Images</li>
-        <li> <img src = "/appicon/1x/outline_apps_black_24dp.png"></li>
-        <li> <img src = "/accounticon/1x/outline_account_circle_black_24dp.png"></li>
-    </ul> 
+    <link rel= "stylesheet" href = "INDEX.css">
 </head>
-<body>
-   
-    <img src = "/googlelogo.png">
 
+<header>
+    <div class = "navbar1">
+        <ul class = "navbartopleft">
+            <li>About</li>
+            <li>Store</li>
+        </ul>
+         <ul class = "navbartopright">
+            <li>Gmail</li>
+             <li>Images</li>
+            <li> <img src = "/appicon/1x/outline_apps_black_24dp.png" alt = "App Icon"></li>
+            <li> <img src = "/accounticon/1x/outline_account_circle_black_24dp.png" alt = "Account Icone"></li>
+         </ul> 
+    </div>
+</header>
+<body>
+    <div class = "center">
+        <img src = "/googlelogo.png">
+    </div>
+    <div class = "searchbar">
+        <input type = "search">
+    </div>
+    <div class ="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
 </body>
 <footer>
-    <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-    </ul>
+    <div class = "navbar2">
+        <ul class = "navbarbottomleft">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search works</li>
+        </ul>
+  
+        <ul class = "navbarbottomright" >
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </ul>
+    </div>
 </footer>
-
-
-
-
 
 
 
